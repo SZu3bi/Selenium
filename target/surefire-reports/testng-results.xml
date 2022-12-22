@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-13T15:26:07 EET" name="Suite" finished-at="2022-12-13T15:26:14 EET" duration-ms="6789">
+    <groups>
+      <group name="Close In Transaction">
+        <method signature="Main.Close_In_Transaction()[pri:0, instance:main.Main@55183b20]" name="Close_In_Transaction" class="main.Main"/>
+      </group> <!-- Close In Transaction -->
+    </groups>
+    <test started-at="2022-12-13T15:26:07 EET" name="Test" finished-at="2022-12-13T15:26:14 EET" duration-ms="6789">
+      <class name="main.Main">
+        <test-method is-config="true" signature="Login_Page()[pri:0, instance:main.Main@55183b20]" started-at="2022-12-13T15:26:07 EET" name="Login_Page" finished-at="2022-12-13T15:26:14 EET" duration-ms="6117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Page -->
+        <test-method signature="Close_In_Transaction()[pri:0, instance:main.Main@55183b20]" started-at="2022-12-13T15:26:14 EET" name="Close_In_Transaction" finished-at="2022-12-13T15:26:14 EET" duration-ms="641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_In_Transaction -->
+      </class> <!-- main.Main -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
